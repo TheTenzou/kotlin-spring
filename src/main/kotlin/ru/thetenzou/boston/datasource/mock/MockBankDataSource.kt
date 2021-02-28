@@ -5,7 +5,7 @@ import ru.thetenzou.boston.datasource.BankDataSource
 import ru.thetenzou.boston.model.Bank
 import kotlin.IllegalArgumentException
 
-@Repository
+@Repository("mock")
 class MockBankDataSource : BankDataSource {
 
     val banks = mutableListOf(
